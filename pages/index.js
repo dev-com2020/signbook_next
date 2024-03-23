@@ -1,8 +1,8 @@
 import GET_LATEST_SIGNS from "../lib/apollo/queries/getLatestSigns";
 import { useQuery } from '@apollo/client';
 import Link from 'next/link';
-import {Sign} from '../components/Sign';
-import {Loading} from '../components/Loading';
+import Sign from '../components/Sign';
+import Loading from '../components/Loading';
 
 function HomePage() {
   const {loading, data} = useQuery(GET_LATEST_SIGNS, {
