@@ -20,9 +20,7 @@ function HomePage() {
       <button>Dodaj wpis</button>
     </Link>
     <div>
-    {data.sign.map((sign) => (
-    <Sign key={sign.uuid} {...sign} />
-  ))}
+
     </div>
   </div>
   );
