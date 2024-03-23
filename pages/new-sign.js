@@ -42,7 +42,7 @@ return (
         <div>
             <button onClick={() => addSign({variables: formState})}>Wyślij</button>
         </div>
-        <Link href='/' passHref><a>Powrót do strony głównej</a></Link>
+        <Link href="/" passHref><a>Powrót do strony głównej</a></Link>
     </div>
 );
 }

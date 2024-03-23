@@ -1,6 +1,6 @@
 import { useApollo } from "../lib/apollo";
 import { ApolloProvider } from '@apollo/client';
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 
 export default function App({ Component, pageProps }) {
